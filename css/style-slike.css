@@ -1,0 +1,293 @@
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 166, 0, 0.479);
+}
+.main{
+  position: relative;
+  
+  margin-top: 85px;
+  width: 100%;
+  height: 100%;
+}
+.text-box{
+  position: relative;
+  width:40%;
+  margin-left: 30%;
+  height: 300px;
+}
+.text-box p {
+    margin: 0;
+    background: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+.main-content{
+  
+  position: absolute;
+  left:40%;
+  width:60%;
+}
+.steps{
+	padding-right: 120px;
+}
+h4,h3,h2{
+	font-family: 'Arimo', sans-serif;
+}
+.card-container {
+  position: relative;
+  margin-left: 14%;
+  display: inline-flex;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 70%;
+  justify-content: center;
+  flex-grow: 1;
+  flex: 1;
+}
+
+/* Style the counter cards */
+.card {
+  position: relative;
+  width: 15%;
+  height: 100px;
+  padding: 20px;
+  text-align: center;
+  background-color: white;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  color: white;
+  border-color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+/*ime recepta*/
+.card h4 {
+  background-color: rgba(255, 166, 0, 0.479);
+  position: realtive;
+  margin-top: 200px;
+  font-weight: 10;
+  font-size: 18px;
+  margin: 15px;
+  word-break: break-word;
+
+}
+
+/*.card img {
+  vertical-align: middle;
+  width: 120px;
+  height: 120px;
+}*/
+
+/*pozadine za recept kartice*/
+
+.rcp1{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp2{
+  background-image: url('keksi.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp3{
+  background-image: url('manistra.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp4{
+  background-image: url('bulgur.jpg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp5{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp6{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp7{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp8{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+.rcp9{
+  background-image: url('header.jpeg');
+  background-repeat: no-repeat;
+  background-position: center; 
+  position: relative;
+}
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top:0;
+  left:0;
+  width: 100%;
+  padding-top: 30px;
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial;
+    z-index: 1;
+  }
+  .first{
+    padding-left: 150px;
+  }
+  /* Links inside the navbar */
+  .navbar a {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  .logo-container{
+    position: fixed;
+    left:50px;
+    top:40px;
+    z-index: 2;
+  }
+  .logo-container img{
+    width: 80px;
+    height: 80px;
+    
+  }
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 16px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .navbar input[type=text] {
+    color: white;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 15px;
+    background: url(search-white.svg);
+    background-position: 7px 7px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    padding-left: 30px;
+  }
+  .navbar input[type=text] {
+    width: 20%;
+    border: none;
+    color: white;
+    background-color: gray;
+    border-color: gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+  .navbar {
+    /* Hide scrollbar for IE and Edge and firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  ::-webkit-input-placeholder {
+    color: white;
+  }
+  ::-moz-placeholder {
+    color: white;
+  }
+  ::-ms-placeholder {
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+  .header-container {
+    position: relative;
+    padding-top: 75px;
+    width: 100%;
+    height: 30%;
+    z-index: 0;
+  }
+  .header-container img{
+    width: 100%;
+    height: 500px;
+  }
+  
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color:rgba(237,171,27, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }

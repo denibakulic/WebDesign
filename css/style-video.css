@@ -1,0 +1,97 @@
+@import "topnav.css";
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(240, 233, 199);
+  height: 100%;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.main{
+  padding-bottom: 30px;
+  padding-top: 110px;
+  width: 100%;
+  min-height: 100%;
+  margin: 0 auto -50px;
+}
+.wrapper {
+  padding-top: 20px;
+  min-height: 100%;
+}
+h4,h3,h2{
+	font-family: 'Arimo', sans-serif;
+}
+
+.main input[type=text] {
+  /*veliki search bar*/
+  padding: 6px;
+  border: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  padding-right: 20px;
+  font-size: 14px;
+  background: url(../search-gray.svg);
+  background-position: 9px 5px;
+  background-repeat: no-repeat;
+  background-size: 17px 17px;
+  fill: lightgray;
+  border-color: #C7C7C7;
+  padding-left: 30px;
+  padding-left: 30px;
+  margin-left: 40px;
+}
+
+.main input[type=text] {
+  float: left;
+  position: relative;
+  width: 90%;
+  background-color: white;
+  color: gray;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.main ::placeholder {
+  color: #b3b2b2;
+}
+
+#small-src {
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  visibility: hidden;
+}
+
+.card-container {
+  padding-top: 30px;
+  position: relative;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content:space-around;
+  flex-wrap:wrap;
+  flex-grow: 1;
+  flex: 1;
+}
+
+.video{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:420px;
+  height: 320px;
+  margin-bottom: 40px;
+  border-color: gray;
+  color:#333;
+  background-color: rgba(255, 68, 0, 0.4);
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+}

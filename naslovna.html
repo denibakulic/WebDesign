@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/style-naslovna.css">
+    <link rel="stylesheet" href="css/icons.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="homepage">
@@ -13,44 +14,58 @@
     <title>finopapaj.hr - Početna</title>
 </head>
 <body>
-    <div class="logo-container">
-        <a href="homepage.html"><img src="slike/logo.jpeg"></a>
-    </div>
-    <div class="navbar">
-        <div class="navigation-container">
-            <button class="dropbtn"onclick="myFunction()">Recepti
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="#">Naši recepti</a>
-                <a href="#">Vaši recepti</a>
-            </div>
-        <a href="#home">Video</a>
-        <a href="#news">Recept dana</a>
-        <a href="#news">Vaše slike</a>
+    <div class="wrapper">
+        <div class="logo-container">
+            <a href="naslovna.html"><img src="slike/logo.jpeg"></a>
         </div>
+
+    <div class="topnav" id="myTopnav">
+        <a href="recepti.html">Recepti</a>
+        <a href="video.html">Video</a>
+        <a href="recept_dana.html">Recept dana</a>
+        <a href="slike.html">Vaše slike</a>
         <div class="title">
             finopapaj.hr
         </div>
-        <input type="text" name="Search" placeholder=" Search">
-    </div>
-
-    <div class="q-container">
-        <div class="q-box">
-            
+            <input type="text"class="small-src" name="Search" placeholder=" Search">
+  <a href="javascript:void(0);" class="icon" onclick="hamburger()">
+    <i class="icon-bars"></i>
+  </a>
+</div>
+        <div class="q-container">
+            <div class="q-box">
+                <h3>Danas kuham...</h4>
+                    <ul>
+                        <li><input type="radio" name="eat" value="rucak" onclick="odabir(1);">Ručak</li>
+                        <li><input type="radio" name="eat" value="dorucak" onclick="odabir(2);">Doručak</li>
+                        <li><input type="radio" name="eat" value="desert" onclick="odabir(3);">Desert</li>
+                        <li><input type="radio" name="eat" value="brzi-zalogaj" onclick="odabir(4);">Brzi zalogaj</li>
+                    </ul>
+                    <button id="view-rcp" onclick="prikazi()">Prikaži recepte</button>
+            </div>
+        </div>
+    
+        <div class="rcp-header">
+            <h4 id="slide">Recept dana</h4>
+        </div>
+    
+        <div id="rcp-container">
+            <img src="slike/burger.jpg" alt="Norway" style="width:100%;">
+            <div class="text-block">
+                <h4>Savršeni hambuerger</h4>
+                <p> Možda vam to nikada nije palo na pamet, ali hamburger je 
+                    ustvari - sendvič! I to vrlo vjerojatno najpoznatiji sendvič na svijetu. 
+                    Pretpostavlja se da potječe iz Njemačke, odakle su ga iseljenici donijeli u Ameriku. 
+                     </p>
+            </div>
         </div>
     </div>
     
-    <div class="rcp-container">
-        <img src="slike/burger.jpg" alt="Norway" style="width:100%;">
-        <div class="text-block">
-          <h4>Savršeni hambuerger</h4>
-          <p>kada vam dođu projatelji iznenadite ih s
-            dustry. Lorem Ipsum has been the industry's standard dummy 
-            text ever since the 1500s, when an unknown printer took a 
-			galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
-               and more recently with desktop publishing software like 
-            Aldus PageMaker </p>
+    <div class="footer">
+        <div class="foot-notes">
+            finopapaj.hr All Rights Resrved<br>
+            Deni&Andrea Design 2020 	&copy
         </div>
     </div>
+   
 </body>

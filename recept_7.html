@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="css/style_rec.css">
+    <link rel="stylesheet" href="css/icons.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="description" content="homepage">
@@ -13,27 +14,28 @@
     <title>Recept_7</title>
 </head>
 <body>
-    <div class="logo-container">
-        <a href="homepage.html"><img src="slike/logo.jpeg"></a>
-    </div>
-    <div class="navbar">
-        <div class="navigation-container">
-            <button class="dropbtn"onclick="myFunction()">Recepti
-                <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content" id="myDropdown">
-                <a href="#">Naši recepti</a>
-                <a href="#">Vaši recepti</a>
+    <div class="wrapper">
+        <div class="logo-container">
+            <a href="naslovna.html"><img src="slike/logo.jpeg"></a>
+        </div>
+        <div class="navbar">
+            <div class="navigation-container">
+                <button class="dropbtn"onclick="myFunction()">Recepti
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content" id="myDropdown">
+                    <a href="recepti.html">Naši recepti</a>
+                    <a href="recepti.html">Vaši recepti</a>
+                </div>
+            <a href="video.html">Video</a>
+            <a href="recept_1.html">Recept dana</a>
+            <a href="slike.html">Vaše slike</a>
             </div>
-        <a href="#home">Video</a>
-        <a href="#news">Recept dana</a>
-        <a href="#news">Vaše slike</a>
+            <div class="title">
+                finopapaj.hr
+            </div>
+            <input type="text" name="Search" placeholder=" Search">
         </div>
-        <div class="title">
-            finopapaj.hr
-        </div>
-        <input type="text" name="Search" placeholder=" Search">
-    </div>
     <div class="header-container">
         <img src="slike/pesto.jpg" alt="Pesto">
         <div class="text-block">
@@ -44,31 +46,41 @@
         </div>
     </div>
     <div class="main">
-        <div class="side-content">
-            <h3>Sastojci  4 osoba</h3>
-        <ul>
-    
-            <li>60 gr bosiljka</li>
-            <li>30 gr pinjoli</li>
-            <li>80 dl ekstra djevičanskog maslinovog ulja</li>
-            <li>3-4 režnja češnjaka</li>
-            <li>60 gr svježe naribanog šarmezana</li>
-        </ul>
-            
-        </div>
-        <div class="main-content">
-            <h2>Priprema</h2>
-            <div class="steps">
-            
-                    <p>U multipraktik natrgamo listove svježeg bosiljka, dodamo usitnjeni 
-					češnjak, pinjole, naribani parmezan, ulijemo polovicu 
-					maslinovog ulja, te na manjoj brzini izradimo sastojke.</p>
-					<p>Zatim povećamo brzinu i dolijevamo preostalo maslinovo
-					ulje dok ne dobijemo jednoličnu smjesu.</p>
-					<p>Ovako pripremljenim umakom začinimo kuhanu tjesteninu i poslužimo.</p>
+        <div class="content">
+            <div class="side-content">
+                <div class="ikone">
+                    <i class="icon-chef"></i>
+                    <h4>Tonći Tončić </h4>
+                    <i class="icon-watch"></i>
+                    <h4>45 min</h4>
+                    <i class="icon-food-and-restaurant"></i>
+                    <h4>8 osoba</h4>
+                </div>
+                <h3>Sastojci  4 osoba</h3>
+            <ul>
+        
+                <li>60 gr bosiljka</li>
+                <li>30 gr pinjoli</li>
+                <li>80 dl ekstra djevičanskog maslinovog ulja</li>
+                <li>3-4 režnja češnjaka</li>
+                <li>60 gr svježe naribanog šarmezana</li>
+            </ul>
+                
             </div>
-            <iframe width="420" height="315" src="https://www.youtube.com/embed/4bi1GlKiy1g">
-			</iframe>
+            <div class="main-content">
+                <h2>Priprema</h2>
+                <div class="steps">
+                
+                        <p>U multipraktik natrgamo listove svježeg bosiljka, dodamo usitnjeni 
+                        češnjak, pinjole, naribani parmezan, ulijemo polovicu 
+                        maslinovog ulja, te na manjoj brzini izradimo sastojke.</p>
+                        <p>Zatim povećamo brzinu i dolijevamo preostalo maslinovo
+                        ulje dok ne dobijemo jednoličnu smjesu.</p>
+                        <p>Ovako pripremljenim umakom začinimo kuhanu tjesteninu i poslužimo.</p>
+                </div>
+                <iframe width="420" height="315" src="https://www.youtube.com/embed/4bi1GlKiy1g">
+                </iframe>
+            </div>
         </div>
     </div>
 </body>

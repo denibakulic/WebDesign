@@ -1,0 +1,257 @@
+@import "topnav.css";
+
+  body{
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(255, 166, 0, 0.479);
+  }
+  .main{
+    position: absolute;
+    top:120px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  h4,h3,h2{
+    font-family: 'Arimo', sans-serif;
+  }
+  
+  .main input[type=text] {
+    /*veliki search bar*/
+    padding: 6px;
+    border: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 8px;
+    padding-right: 20px;
+    font-size: 14px;
+    background: url(ikone/search-gray.svg);
+    background-position: 9px 5px;
+    background-repeat: no-repeat;
+    background-size: 17px 17px;
+    fill: lightgray;
+    border-color: #C7C7C7;
+    padding-left: 30px;
+  }
+
+  .main input[type=text] {
+    float: left;
+    position: relative;
+    width: 90%;
+    background-color: white;
+    color: gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  .main ::placeholder {
+    color: #b3b2b2;
+  }
+
+  #small-src {
+    position: absolute;
+    margin-top: 0;
+    margin-right: 0;
+    visibility: hidden;
+  }
+
+  .card-container {
+    position: relative;
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    flex-grow: 1;
+    flex: 1;
+  }
+
+  /* Style the counter cards */
+  .card {
+    /*position: relative;*/
+    display: flex;
+    width:370px;
+    height: 250px;
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    color: white;
+    border-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  /*ime recepta*/
+  .card h4{/*ime recepta*/
+    background-color: rgba(255, 166, 0, 0.644);
+    display:flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 10;
+    font-size: 18px;
+    word-break: break-word;
+    border-radius: 10px;
+    padding:20px;
+    opacity: 1;
+  }
+  
+  .text {
+    /*tekst recepta, pojavi se pri hoveru*/
+    background-color: rgba(255, 166, 0, 0.692);
+    margin:10px;
+    color:white;
+    display:flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-weight: 10;
+    font-size: 16px;
+    padding:10px;
+    padding-left:15px;
+    border-radius: 5px;
+    word-break: break-word;
+    opacity:0;
+    transition: .5s ease;
+  }
+  
+  /*ime recepta nestane pri hoveru*/
+  .rcp1:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp1:hover .text{opacity:1;}
+  
+  /*pozadine za recept kartice*/
+  .rcp1{
+    background-image: url('../slike/header.jpeg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+  
+  .rcp2:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp2:hover .text{opacity:1;}
+  
+  .rcp2{
+    background-image: url('../slike/keksi.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  .rcp3:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp3:hover .text{opacity:1;}
+  
+  .rcp3{
+    background-image: url('../slike/manistra.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+  
+  .rcp4:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp4:hover .text{opacity:1;}
+  
+  .rcp4{
+    background-image: url('../slike/bulgur.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  .rcp5:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp5:hover .text{opacity:1;}
+
+  .rcp5{
+    background-image: url('../slike/chilli.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+  .rcp6:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp6:hover .text{opacity:1;}
+
+  .rcp6{
+    background-image: url('../slike/voce.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  .rcp7:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp7:hover .text{opacity:1;}
+  
+  .rcp7{
+    background-image: url('../slike/pesto.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  .rcp8:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp8:hover .text{opacity:1;}
+  
+  
+  .rcp8{
+    background-image: url('../slike/pita.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+  .rcp9:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp9:hover .text{opacity:1;}
+  
+  
+  .rcp9{
+    background-image: url('../slike/okruglice.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+  
+  .rcp10:hover h4{
+    visibility: hidden;
+  }
+
+  .rcp10:hover .text{opacity:1;}
+  
+  
+  .rcp10{
+    background-image: url('../slike/pasta.jpg');
+    background-repeat: no-repeat;
+    background-position: center; 
+    position: relative;
+  }
+
+   
