@@ -13,6 +13,7 @@ A simple end of the year university project for web design. An online cookbok.
 * HTML
 * CSS
 * JavaScript
+* Visual Studio Code
 
 # Team memebers
 
